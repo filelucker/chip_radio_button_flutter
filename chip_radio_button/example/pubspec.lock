@@ -28,7 +28,7 @@ packages:
   chip_radio_button:
     dependency: "direct main"
     description:
-      path: chip_radio_button
+      path: ".."
       relative: true
     source: path
     version: "0.0.1"
