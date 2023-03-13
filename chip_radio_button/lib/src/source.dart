@@ -21,6 +21,7 @@ class Filter {
 
 // =============================================================================
 
+
 ///
 /// The filter widget
 ///
@@ -33,12 +34,12 @@ class ChipsFilter extends StatefulWidget {
   ///
   /// The default selected index starting with 0
   ///
-  final int selected;
+  final int? selected;
 
   final ValueChanged<dynamic>? onTap;
 
 
-  ChipsFilter({ Key? key, required this.filters, required this.selected, required this.onTap}) : super(key: key);
+  ChipsFilter({ Key? key, required this.filters, this.selected, required this.onTap}) : super(key: key);
 
   @override
   _ChipsFilterState createState() => _ChipsFilterState();
@@ -55,8 +56,8 @@ class _ChipsFilterState extends State<ChipsFilter> {
     // When [widget.selected] is defined, check the value and set it as
     // [selectedIndex]
     if (widget.selected != null &&
-        widget.selected >= 0 &&
-        widget.selected < widget.filters.length) {
+        widget.selected! >= 0 &&
+        widget.selected! < widget.filters.length) {
       this.selectedIndex = widget.selected;
     }
 

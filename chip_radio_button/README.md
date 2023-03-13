@@ -16,12 +16,7 @@ know whether this package might be useful for them.
 
 ## Features
 
-List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-List prerequisites and provide or point to information on how to
-start using the package.
+A alternative look of flutter radio button
 
 ## Usage
 
@@ -45,8 +40,7 @@ print('Index ' + index.toString());
 ),
 ```
 
-## Additional information
+## Example screenshot
 
-Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+![alt text](https://raw.githubusercontent.com/filelucker/chip_radio_button_flutter/library/chip_radio_button/example/chip_example.png)
+
