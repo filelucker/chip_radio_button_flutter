@@ -1,3 +1,6 @@
+## 1.1.2
+* Chip can be vertical or horizontal and selection can be null or un selected.
+
 ## 1.1.1
 * Example gif added.
 
