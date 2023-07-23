@@ -11,12 +11,18 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Flutter package that provides an alternative look for radio buttons. It uses chips to represent the radio buttons, which can be either vertical or horizontal. The chips can also be unselected or null.
+
+This package is useful for developers who want to add a more modern look to their radio buttons. It is also easy to use, with a simple API.
 
 ## Features
 
-A alternative look of flutter radio button
+Here are some of the features of chip_radio_button:
+
+1. Vertical or horizontal chips
+2. Unselected or null chips
+3. Simple API
+4. MIT license
 
 ## Usage
 
